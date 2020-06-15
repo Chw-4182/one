@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer" />
+    <title>Document</title>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+header{
+
+background-color: darkred;
+
+}
+.header-title{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+}
+.container{
+   width: 1200px;
+   display: flex;
+   margin: 0 auto; 
+    
+    flex-direction: row;
+    
+}
+.wenz{
+    align-items: center; 
+}
+.headerimg{
+height: 30px;
+width: 30px;
+}
+.nav{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+}
+.nav ul{
+    
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.nav ul>li{
+    display: flex; 
+    flex-direction: row;
+}
+.nav ul>li a{
+    display: inline-block;
+    padding: 8px;
+    color: floralwhite;
+}
+.ldy{
+    
+    display: flex; 
+    
+   flex-direction: column;
+}
+  
+    
+.dyul{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.clearfix{
+    clear: both;
+}
+.section-title{
+    text-align: center;
+
+}
+footer{
+    min-height: 200px;
+    background-color: darkred;
+}
+footer.left{
+    
+    
+    width: 500px;padding: 40px;
+}
+footer.right{
+  margin-left: 250px;
+  padding: 16px;
+  
+}
+</style>
+
+
+
+
+</head>
+<body>
+    <header>
+<div class="container">
+    <div class="header-title">
+      <img src="http://img0.imgtn.bdimg.com/it/u=2164552727,1674393781&fm=26&gp=0.jpg" alt=""class="headerimg">
+        <span>我喜欢的电影</span> 
+    </div>
+    <nav class="nav" style="color: floralwhite;">
+        <ul >
+            <li ><a href="">喜欢的电影</a></li>
+            <li><a href="">喜欢的书</a> </li>
+            <li><a href="">简介</a></li>
+        </ul>
+    </nav>
+</div>
+</header>
+<section>
+    <div class="ldy">
+<h1 class=" section-title">喜欢的电影</h1>
+<ul class="dyul">
+    <li><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2604517782.jpg" alt="">
+    <h4 class=" section-title">春潮</h4></li>
+    <li>
+        <img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2594916975.jpg" alt="">
+        <h4 class=" section-title">真心半解</h4>
+    </li>
+    <li><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561160802.jpg" alt="">
+        <h4 class=" section-title">给我翅膀</h4>
+    </li>
+    <li><img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570235120.jpg" alt="">
+    
+          <h4 class=" section-title">阳光普照</h4></li>
+</ul>
+<h1 class="section-title">喜欢的书</h1>
+<ul class="dyul">
+    <li><img src="http://img3m8.ddimg.cn/56/14/28493048-1_l_6.jpg" alt="">
+        <h4 class=" section-title">一剪宋朝的光</h4></li>
+    <li><img src="http://img3m4.ddimg.cn/28/2/28475794-1_l_21.jpg" alt="">
+        <h4 class=" section-title">我的牧羊日记</h4></li>
+    <li><img src="http://img3m4.ddimg.cn/33/29/25101384-1_l_6.jpg" alt="">
+        <h4 class=" section-title">活着活着就老了</h4></li>
+    <li><img src="http://img3m3.ddimg.cn/3/7/28513983-1_l_3.jpg" alt="">
+        <h4 class=" section-title">外婆家
+
+        </h4></li>
+</ul>
+
+
+    </div>
+</section>
+<footer >
+    <div class="container"> 
+        <div class="left" > 
+         多看电影多看书多看电影多看书
+        多看电影多看书多看电影多看书
+    </div>
+        <div class="right">
+        <img src="http://img5.imgtn.bdimg.com/it/u=2162188945,3066929966&fm=11&gp=0.jpg" style="width: 50px;" >
+        </div>
+    </div>
+    <div style="padding-top: 10px; padding-bottom:10px;text-align: center;" >
+        <span style="color: floralwhite;">版权所有©chw</span>
+    </div>
+</footer>
+
+
+
+    
+</body>
+</html>
