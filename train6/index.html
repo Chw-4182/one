@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon{
+            width: 32px;
+            height: 36px;
+            padding: 6px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 32px;
+            padding: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color:black;
+            text-decoration: none;
+        }
+        .nav ul>li>a:hover{
+            color: black;
+        }
+        .nav ul>li>a:active{
+            color: black;
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(230, 230, 230);
+            
+        }
+        .movie{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+            
+        }
+        .introduce{
+            min-height: 300px;
+        }
+        .introduce .left{
+            color: white;
+            padding: 48px;
+        }
+        .introduce .right{
+            padding: 48px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="恐龙.png" alt="logo" class="icon">
+                <span style="font-size: 18px;">精灵宝可梦</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" style="color: black;">首页</a></li>
+                    <li><a href="#小电影">视频介绍</a></li>
+                    <li><a href="juqing.html">故事背景</a></li>
+                    
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1386430783,728233241&fm=26&gp=0.jpg" alt="" width="100%">
+    </div>
+    <section>
+        <div class="container column">
+            <h2 class="section-title"  id="任务目标">成为超级训练家</h2>
+            <ul class="gallery">
+                <li>
+                    <img  src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1282106891,3847457919&fm=26&gp=0.jpg" alt="" width="70%">
+                    <h4>探索宝可梦世界</h4>
+                </li>
+                <li>
+                    <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2538001418,893261758&fm=26&gp=0.jpg" alt="" width="70%">
+                    <h4>寻找宝可梦伙伴</h4>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3305431688,4183431586&fm=26&gp=0.jpg" alt="" width="70%"> 
+                    <h4>与宝可梦一起变强</h4>
+                </li>
+                <li>
+                    <img  src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3614675868,2868116225&fm=26&gp=0.jpg" alt="" width="105%">
+                    <h4>挑战道馆</h4>
+                </li>
+            </ul>
+            <h2 class="section-title"  id="恐龙介绍">宝可梦介绍</h2>
+            
+            <introduce>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://bkimg.cdn.bcebos.com/pic/7aec54e736d12f2e37156f174fc2d562853568b1?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">皮卡丘</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">皮卡丘拥有将生硬的果实，用电击烤软后再吃的生存智慧 [10]  。两边的脸颊中有小小的电气囊，遇到危险的时候，会从里边放电出来 [11]  。在黄中，皮卡丘作为初学者宝可梦被赠予训练家。这只皮卡丘可以同玩家互动，并根据亲密程度做出不同反应</p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">妙蛙种子</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">大部分妙蛙种子十分温顺，因此在关都地方由宝可梦培育家培育并提供给初学者使用。也因为这一点，妙蛙种子也被认为是一种在很多情况下表现突出的宝可梦｡在关都地方有两个道馆训练家的宝可梦属性被妙蛙种子克制，所以也被认为是最佳的开局宝可梦。妙蛙种子似乎对它的朋友､宝可梦训练家十分忠诚。。</p>
+                        
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://bkimg.cdn.bcebos.com/pic/8326cffc1e178a82cfd2349df803738da977e825?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5" alt="" width="">
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://bkimg.cdn.bcebos.com/pic/902397dda144ad340f50bba7dea20cf431ad8526?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5" alt="" width="150%">
+                    </div>
+                    <div class="right" style="margin-left: 240px; " >
+                        <h2 align="center">小火龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">它尾巴上的火焰能够表现出它的情绪。当它开心时，火焰会摇曳。如果它被激怒，火焰就会猛烈地燃烧。生下来的时候，尾巴上就有火在燃烧。当尾巴上的火熄灭时，它的生命就结束了。</p>
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">杰尼龟</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">出生后需要一段时间才会变硬的龟甲，十分富有弹性，即使用指头按压，放开后也能马上恢复原状。杰尼龟的壳不仅仅用来保护自己，它圆形的壳和表面的沟壑减小了它在水中的阻力，让这只宝可梦能高速游泳。</p>
+                        
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://bkimg.cdn.bcebos.com/pic/b812c8fcc3cec3fdc7eb1055d888d43f8794273c?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" width="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://bkimg.cdn.bcebos.com/pic/5882b2b7d0a20cf4b0fb29ff78094b36acaf99a3?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">超梦</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">基因和梦幻几乎一样，但是大小和性格迥异到可怕。出于研究目的不断重组基因，结果变成凶暴的宝可梦。</p>
+                        
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">梦幻</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">据说它有着所有宝可梦的遗传基因，因为可以随心所欲地隐形，所以就算接近人类也完全不会被察觉。因为能使用所有的技能，很多学者认为它是宝可梦的祖先。 </p>
+                      
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://bkimg.cdn.bcebos.com/pic/9f510fb30f2442a716b3c384df43ad4bd1130255?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" width="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://bkimg.cdn.bcebos.com/pic/63d0f703918fa0ecfd5c69ca249759ee3c6ddb5a?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">裂空座</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">烈空坐最知名的能力是能够在超古代宝可梦盖欧卡、固拉多战斗时安抚它们。它能够从嘴中发射带有着毁灭性力量的多种攻击。尽管身形庞大，但其细长和盘绕的体形使得烈空坐能以惊人的速度自如地飞行。</p>
+                       
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">固拉多</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">固拉多是一种巨型、两足、长相与恐龙相像，全身被红色、片状、起护甲作用的皮肤包裹的精灵宝可梦。其身体的暗面呈现灰色，大型的尖刺从头部、躯干和尾部伸出。固拉多的每只手都长有四个爪子，四个推土机般的齿在其尾部末端翘起，每只足长有三个爪子，足底有灰色标记。固拉多皮肤的接缝内也长有蓝色的尖刺，在固拉多积蓄力量时能被看到。 </p>
+                        
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://bkimg.cdn.bcebos.com/pic/f9dcd100baa1cd113ce632e8bb12c8fcc2ce2da1?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" width="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://bkimg.cdn.bcebos.com/pic/9e3df8dcd100baa1ae2d2d794510b912c9fc2eea?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">盖欧亚</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">盖欧卡是一种大型的、外表与鲸鱼相似的宝可梦，长有两只巨大的胸鳍，各鳍鳍尖长有四个白色的方形结构。盖欧卡的躯体呈深蓝色，下巴白色并有两个白色的尖状物突出。在盖欧卡的双眼上方，有两个白色椭圆形的斑点。在盖欧卡的下巴、眼睛、鳍的背部和躯干上有红色的条纹。在盖欧卡能量充盈的时候，这些条纹会放出光芒。盖欧卡的尾部分裂成四条条带状的结构，内侧的条带比外侧的条带小。盖欧卡的眼睛较小，呈现黄色，眼白漆黑。</p>
+                        
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">凤王</h2>
+                        <p style="margin-top: 40px; margin-bottom: 40px;">凤王是一种类似凤凰和孔雀的宝可梦。其羽毛多数为金色和红色，尾羽黄色，身体暗面的羽毛为白色，双翼顶端的羽毛呈绿色。凤王在颈部有绿色条纹，喙为黄色，红色眼睛周围有黑色眼眶。头上有黄色羽毛头冠。凤王的双翼呈棱镜形，这使得其在飞行时能够于身后形成彩虹。其腿部黑色，长爪分出四趾。</p>
+                        
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://bkimg.cdn.bcebos.com/pic/8718367adab44aed79d03c2ab21c8701a08bfb66?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="" width="">
+                    </div>
+                </div>
+
+                
+            </introduce>
+            <h2 class="section-title"  id="小电影">视频介绍</h2>
+            <ul class="movie">
+                <li>
+                    <video width="1200" height="320" controls>
+                        <source src="https://gss3.baidu.com/6LZ0ej3k1Qd3ote6lo7D0j9wehsv/tieba-smallvideo-transcode/25487001_027fe8684b12d64aaeefcf5964c77955_0.mp4" type="video/mp4">
+                        
+                        <object data="https://gss3.baidu.com/6LZ0ej3k1Qd3ote6lo7D0j9wehsv/tieba-smallvideo-transcode/25487001_027fe8684b12d64aaeefcf5964c77955_0.mp4" width="280" height="180">
+                        
+                        </object> 
+                    </video>
+                    
+           
+        </div>
+    </section>
+    <div style="padding-top: 10px; padding-bottom: 10px; text-align:center;background-color: rgb(50, 110, 223); ">
+        <span style="color: white;  ">版权所有&nbsp;©&nbsp;。。。</span>
+    </div>
+
+</body>
+</html>
